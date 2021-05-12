@@ -15,6 +15,7 @@ import { ProductModule } from './modules/products/products.module'
 import { DealerModule } from './modules/dealers/dealers.module'
 import { EmployeeModule } from './modules/employee/employee.module'
 import { TranfersModule } from './modules/tranfers/tranfers.module'
+import { SellsModule } from './modules/sells/sells.module'
 
 const AppProvider = [
   {
@@ -46,6 +47,7 @@ const AppProvider = [
 	DealerModule,
 	EmployeeModule,
 	TranfersModule,
+	SellsModule,
 	MorganModule.forRoot(),
     ConfigModule.forRoot()
   ],
